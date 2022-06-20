@@ -1,5 +1,4 @@
 import cv2
-
 #for face detection
 face_cascade = \
     cv2.CascadeClassifier(
@@ -11,7 +10,6 @@ screen_height = 720
 
 #default webcam
 stream = cv2.VideoCapture(0)
-
 while(True):
     #capture frame-by-frame
     (grabbed, frame) = stream.read()
